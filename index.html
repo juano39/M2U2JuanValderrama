@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styls.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Descuento clases</title>
+</head>
+<body>
+    <form id="form">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre Estudiante">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Cedula</label>
+            <input type="number" class="form-control" id="cedula" placeholder="Ejemplo: 123456789">
+          </div>
+        </div>
+       
+        
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">N° Materias</label>
+            <input type="number" class="form-control" id="materias" placeholder="0">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Periodo</label>
+            <select id="periodo" class="form-control">
+              <option selected>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Universidad</label>
+            <input type="text" class="form-control" id="universidad">
+          </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input check" type="checkbox"  value="Matematicas">
+                <label class="form-check-label" for="inlineCheckbox1">Matematicas</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input check" type="checkbox"  value="Fisica">
+                <label class="form-check-label" for="inlineCheckbox2">Fisica</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input check" type="checkbox"  value="Quimica">
+                <label class="form-check-label" for="inlineCheckbox1">Quimica</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input check" type="checkbox"  value="Sociales">
+                <label class="form-check-label" for="inlineCheckbox2">Sociales</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input check" type="checkbox"  value="Lenguas">
+                <label class="form-check-label" for="inlineCheckbox1">Lenguas</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input check" type="checkbox"  value="Español">
+                <label class="form-check-label" for="inlineCheckbox2">Español</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input check" type="checkbox"  value="Artes">
+                <label class="form-check-label" for="inlineCheckbox1">Artes</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input check" type="checkbox"  value="Emprendimiento">
+                <label class="form-check-label" for="inlineCheckbox2">Emprendimiento</label>
+              </div>
+
+
+          
+        </div>
+        <button type="submit" id="evaluar" class="btn btn-primary">Evaluar Pago</button>
+      </form>
+
+      <section>
+
+        <ul class="list-group">
+            <li class="list-group-item">
+                <p>Estudiante: Juan Daniel Valderrama Cedula: 104074970</p>
+                <p>
+                    Materias Incritas: 3
+                </p>
+                <ul class="list-group">
+                    <li class="list-group-item">Matelocas</li>
+                    <li class="list-group-item">Españolas</li>
+                    <li class="list-group-item">Artecaspa</li>
+                </ul>
+            </li>
+            
+          </ul>
+          
+      </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

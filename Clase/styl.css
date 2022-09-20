@@ -1,0 +1,40 @@
+body{
+    background-color: #3D3D3D;
+}
+.formulario {
+    background-color:#217373;
+    height: 380px;
+    width: 500px;
+    border: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+
+}
+.ingresar{
+    margin-top: 10px;
+    background-color: #161F30;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ingresar:hover {
+    background-color: #173540;
+}
+
+
+.numeros {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.numeros p {
+    margin-left: 20px;
+}
+
